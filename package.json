@@ -1,12 +1,28 @@
 {
   "name": "goremotemilspousequiz",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "https://goremotemilspouse.work/quiz/",
   "dependencies": {
+    "react-router": "^5.0.0",
+    "react-scripts": "^1.1.5",
+    "semantic-ui-react": "^0.82.5"
+  },
+  "peerDependencies": {
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "file-loader": "^3.0.1",
+    "node-sass": "^4.11.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
-    "react-scripts": "1.1.5",
-    "semantic-ui-react": "^0.82.5"
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2"
+  },
+  "publishConfig": {
+    "access": "restricted"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -14,6 +30,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "keywords": [],
-  "description": ""
+  "description": "For go remote milspouse"
 }
